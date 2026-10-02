@@ -1,1 +1,2 @@
 *.log filter=lfs diff=lfs merge=lfs -text
+Input/JPetStore-traces.log filter=lfs diff=lfs merge=lfs -text
