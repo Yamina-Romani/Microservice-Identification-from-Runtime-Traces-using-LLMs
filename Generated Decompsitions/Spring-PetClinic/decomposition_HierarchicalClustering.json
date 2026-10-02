@@ -1,0 +1,44 @@
+{
+  "HierService_1": {
+    "classes": [
+      "BaseEntity",
+      "NamedEntity",
+      "Owner",
+      "OwnerController",
+      "OwnerRepository",
+      "Person",
+      "Pet",
+      "PetController",
+      "PetTypeFormatter",
+      "PetValidator",
+      "Vet",
+      "VetController",
+      "VetRepository",
+      "Vets",
+      "Visit",
+      "VisitController"
+    ],
+    "tables": [
+      "owners",
+      "pets",
+      "pettype",
+      "types",
+      "vet",
+      "vets",
+      "visits"
+    ]
+  },
+  "HierService_2": {
+    "classes": [
+      "CacheConfiguration",
+      "CrashController"
+    ],
+    "tables": []
+  },
+  "HierService_3": {
+    "classes": [
+      "WelcomeController"
+    ],
+    "tables": []
+  }
+}

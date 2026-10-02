@@ -1,0 +1,42 @@
+{
+  "LouvainService_1": {
+    "classes": [
+      "CatalogController",
+      "CatalogItem",
+      "MongoCatalogItemsRepository"
+    ],
+    "tables": []
+  },
+  "LouvainService_2": {
+    "classes": [
+      "DeliveryAddress",
+      "MongoOrderRepository",
+      "MongoShipmentRepository",
+      "Order",
+      "OrderController",
+      "OrderDetails",
+      "OrderStatus",
+      "PhoneInfo",
+      "ShipmentController",
+      "ShipmentDetails",
+      "ShipmentEventInfo",
+      "ShipmentRecord"
+    ],
+    "tables": []
+  },
+  "LouvainService_3": {
+    "classes": [
+      "Dealer",
+      "DealerController",
+      "DealerInfo",
+      "MongoDealersRepository",
+      "MongoOperationsWithRetry",
+      "MongoQuoteRepository",
+      "Quote",
+      "QuoteController",
+      "QuoteDetails",
+      "RepositoryFactory"
+    ],
+    "tables": []
+  }
+}

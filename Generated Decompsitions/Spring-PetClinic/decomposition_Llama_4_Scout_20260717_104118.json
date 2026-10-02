@@ -1,0 +1,70 @@
+{
+  "PetService": {
+    "classes": [
+      "Pet",
+      "PetController",
+      "PetValidator",
+      "PetTypeFormatter"
+    ],
+    "tables": [
+      "pets",
+      "visits"
+    ]
+  },
+  "OwnerService": {
+    "classes": [
+      "BaseEntity",
+      "Person",
+      "NamedEntity",
+      "OwnerRepository",
+      "Owner",
+      "OwnerController"
+    ],
+    "tables": [
+      "owners",
+      "pets",
+      "visits",
+      "pettype",
+      "types"
+    ]
+  },
+  "WelcomeService": {
+    "classes": [
+      "WelcomeController"
+    ],
+    "tables": []
+  },
+  "UnassignedService": {
+    "classes": [
+      "CacheConfiguration"
+    ],
+    "tables": []
+  },
+  "VetService": {
+    "classes": [
+      "Vet",
+      "Vets",
+      "VetController",
+      "VetRepository"
+    ],
+    "tables": [
+      "vet",
+      "vets"
+    ]
+  },
+  "VisitService": {
+    "classes": [
+      "Visit",
+      "VisitController"
+    ],
+    "tables": [
+      "visits"
+    ]
+  },
+  "CrashService": {
+    "classes": [
+      "CrashController"
+    ],
+    "tables": []
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "OrderService": {
+    "classes": [
+      "OrderMapper",
+      "Sequence",
+      "LineItemMapper",
+      "SequenceMapper",
+      "OrderService",
+      "Order",
+      "OrderActionBean",
+      "LineItem"
+    ],
+    "tables": [
+      "inventory",
+      "lineitem",
+      "orders",
+      "orderstatus",
+      "sequence"
+    ]
+  },
+  "CatalogService": {
+    "classes": [
+      "Category",
+      "CatalogActionBean",
+      "ProductMapper",
+      "ItemMapper",
+      "CatalogService",
+      "Product",
+      "Item",
+      "CategoryMapper"
+    ],
+    "tables": [
+      "inventory",
+      "lineitem",
+      "orders",
+      "orderstatus",
+      "sequence",
+      "category",
+      "product"
+    ]
+  },
+  "AccountService": {
+    "classes": [
+      "AccountService",
+      "AccountMapper",
+      "AccountActionBean",
+      "Account"
+    ],
+    "tables": [
+      "account",
+      "inventory",
+      "lineitem",
+      "orders",
+      "orderstatus",
+      "sequence"
+    ]
+  },
+  "CartService": {
+    "classes": [
+      "CartItem",
+      "CartActionBean",
+      "Cart"
+    ],
+    "tables": [
+      "inventory",
+      "lineitem",
+      "orders",
+      "orderstatus",
+      "sequence"
+    ]
+  }
+}

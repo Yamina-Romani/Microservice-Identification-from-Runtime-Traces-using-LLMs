@@ -1,0 +1,61 @@
+{
+  "LouvainService_1": {
+    "classes": [
+      "BaseEntity",
+      "Owner",
+      "OwnerController",
+      "OwnerRepository",
+      "Person"
+    ],
+    "tables": [
+      "owners",
+      "types",
+      "visits"
+    ]
+  },
+  "LouvainService_2": {
+    "classes": [
+      "CacheConfiguration"
+    ],
+    "tables": []
+  },
+  "LouvainService_3": {
+    "classes": [
+      "CrashController"
+    ],
+    "tables": []
+  },
+  "LouvainService_4": {
+    "classes": [
+      "Pet",
+      "PetController",
+      "PetTypeFormatter",
+      "PetValidator",
+      "Visit",
+      "VisitController"
+    ],
+    "tables": [
+      "pets",
+      "pettype"
+    ]
+  },
+  "LouvainService_5": {
+    "classes": [
+      "NamedEntity",
+      "Vet",
+      "VetController",
+      "VetRepository",
+      "Vets"
+    ],
+    "tables": [
+      "vet",
+      "vets"
+    ]
+  },
+  "LouvainService_6": {
+    "classes": [
+      "WelcomeController"
+    ],
+    "tables": []
+  }
+}

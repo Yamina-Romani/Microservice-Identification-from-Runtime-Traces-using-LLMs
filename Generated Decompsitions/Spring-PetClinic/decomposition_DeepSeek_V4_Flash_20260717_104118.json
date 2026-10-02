@@ -1,0 +1,55 @@
+{
+  "OwnerService": {
+    "classes": [
+      "Pet",
+      "BaseEntity",
+      "Person",
+      "PetController",
+      "Visit",
+      "NamedEntity",
+      "VisitController",
+      "PetValidator",
+      "OwnerRepository",
+      "PetTypeFormatter",
+      "Owner",
+      "OwnerController"
+    ],
+    "tables": [
+      "owners",
+      "pets",
+      "visits",
+      "pettype",
+      "types"
+    ]
+  },
+  "WelcomeService": {
+    "classes": [
+      "WelcomeController"
+    ],
+    "tables": []
+  },
+  "Cache": {
+    "classes": [
+      "CacheConfiguration"
+    ],
+    "tables": []
+  },
+  "VetService": {
+    "classes": [
+      "Vet",
+      "Vets",
+      "VetController",
+      "VetRepository"
+    ],
+    "tables": [
+      "vet",
+      "vets"
+    ]
+  },
+  "Crash": {
+    "classes": [
+      "CrashController"
+    ],
+    "tables": []
+  }
+}

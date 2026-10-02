@@ -1,0 +1,52 @@
+{
+  "HierService_1": {
+    "classes": [
+      "CatalogController",
+      "CatalogItem",
+      "MongoCatalogItemsRepository"
+    ],
+    "tables": []
+  },
+  "HierService_2": {
+    "classes": [
+      "Dealer",
+      "DealerController",
+      "DealerInfo",
+      "MongoDealersRepository",
+      "MongoOperationsWithRetry",
+      "MongoQuoteRepository",
+      "Quote",
+      "QuoteController",
+      "QuoteDetails",
+      "RepositoryFactory"
+    ],
+    "tables": []
+  },
+  "HierService_3": {
+    "classes": [
+      "DeliveryAddress",
+      "MongoOrderRepository",
+      "MongoShipmentRepository",
+      "Order",
+      "OrderController",
+      "OrderDetails",
+      "PhoneInfo",
+      "ShipmentController",
+      "ShipmentDetails",
+      "ShipmentRecord"
+    ],
+    "tables": []
+  },
+  "HierService_4": {
+    "classes": [
+      "OrderStatus"
+    ],
+    "tables": []
+  },
+  "HierService_5": {
+    "classes": [
+      "ShipmentEventInfo"
+    ],
+    "tables": []
+  }
+}

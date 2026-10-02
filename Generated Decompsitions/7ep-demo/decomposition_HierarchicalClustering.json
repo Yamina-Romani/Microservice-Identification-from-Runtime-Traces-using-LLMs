@@ -1,0 +1,56 @@
+{
+  "HierService_1": {
+    "classes": [
+      "AckServlet"
+    ],
+    "tables": []
+  },
+  "HierService_2": {
+    "classes": [
+      "Book",
+      "Borrower",
+      "CheckUtils",
+      "FibServlet",
+      "Fibonacci",
+      "FibonacciIterative",
+      "LibraryBookListAvailableServlet",
+      "LibraryBookListSearchServlet",
+      "LibraryBorrowerListSearchServlet",
+      "LibraryLendServlet",
+      "LibraryRegisterBookServlet",
+      "LibraryRegisterBorrowerServlet",
+      "LibraryUtils",
+      "Loan",
+      "LoginServlet",
+      "LoginUtils",
+      "ParameterObject",
+      "PasswordResult",
+      "PersistenceLayer",
+      "RegisterServlet",
+      "RegistrationResult",
+      "RegistrationUtils",
+      "ServletUtils",
+      "SqlData",
+      "StringUtils"
+    ],
+    "tables": [
+      "auth.user",
+      "library.book",
+      "library.borrower",
+      "library.loan"
+    ]
+  },
+  "HierService_3": {
+    "classes": [
+      "Calculator",
+      "MathServlet"
+    ],
+    "tables": []
+  },
+  "HierService_4": {
+    "classes": [
+      "WebAppListener"
+    ],
+    "tables": []
+  }
+}

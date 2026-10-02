@@ -1,0 +1,52 @@
+{
+  "CatalogService": {
+    "classes": [
+      "MongoCatalogItemsRepository",
+      "CatalogController",
+      "CatalogItem"
+    ],
+    "tables": []
+  },
+  "QuoteService": {
+    "classes": [
+      "QuoteController",
+      "Quote",
+      "MongoQuoteRepository",
+      "QuoteDetails"
+    ],
+    "tables": []
+  },
+  "DealerService": {
+    "classes": [
+      "DealerInfo",
+      "MongoDealersRepository",
+      "DealerController",
+      "Dealer"
+    ],
+    "tables": []
+  },
+  "ShipmentService": {
+    "classes": [
+      "PhoneInfo",
+      "ShipmentRecord",
+      "ShipmentEventInfo",
+      "DeliveryAddress",
+      "MongoShipmentRepository",
+      "ShipmentController",
+      "ShipmentDetails"
+    ],
+    "tables": []
+  },
+  "OrderService": {
+    "classes": [
+      "OrderController",
+      "MongoOperationsWithRetry",
+      "OrderDetails",
+      "Order",
+      "RepositoryFactory",
+      "OrderStatus",
+      "MongoOrderRepository"
+    ],
+    "tables": []
+  }
+}

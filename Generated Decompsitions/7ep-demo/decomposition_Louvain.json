@@ -1,0 +1,61 @@
+{
+  "LouvainService_1": {
+    "classes": [
+      "Book",
+      "Borrower",
+      "LibraryBookListAvailableServlet",
+      "LibraryBookListSearchServlet",
+      "LibraryBorrowerListSearchServlet",
+      "LibraryLendServlet",
+      "LibraryRegisterBookServlet",
+      "LibraryRegisterBorrowerServlet",
+      "LibraryUtils",
+      "Loan"
+    ],
+    "tables": []
+  },
+  "LouvainService_2": {
+    "classes": [
+      "Calculator",
+      "MathServlet"
+    ],
+    "tables": []
+  },
+  "LouvainService_3": {
+    "classes": [
+      "FibServlet",
+      "Fibonacci",
+      "FibonacciIterative"
+    ],
+    "tables": []
+  },
+  "LouvainService_4": {
+    "classes": [
+      "AckServlet",
+      "CheckUtils",
+      "LoginServlet",
+      "LoginUtils",
+      "ParameterObject",
+      "PasswordResult",
+      "PersistenceLayer",
+      "RegisterServlet",
+      "RegistrationResult",
+      "RegistrationUtils",
+      "ServletUtils",
+      "SqlData",
+      "StringUtils"
+    ],
+    "tables": [
+      "auth.user",
+      "library.book",
+      "library.borrower",
+      "library.loan"
+    ]
+  },
+  "LouvainService_5": {
+    "classes": [
+      "WebAppListener"
+    ],
+    "tables": []
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "LouvainService_1": {
+    "classes": [
+      "Account",
+      "AccountActionBean",
+      "AccountMapper",
+      "AccountService"
+    ],
+    "tables": [
+      "account"
+    ]
+  },
+  "LouvainService_2": {
+    "classes": [
+      "Cart",
+      "CartActionBean",
+      "CartItem",
+      "Item",
+      "ItemMapper"
+    ],
+    "tables": []
+  },
+  "LouvainService_3": {
+    "classes": [
+      "CatalogActionBean",
+      "CatalogService",
+      "Category",
+      "CategoryMapper",
+      "Product",
+      "ProductMapper"
+    ],
+    "tables": [
+      "category",
+      "product"
+    ]
+  },
+  "LouvainService_4": {
+    "classes": [
+      "LineItem",
+      "LineItemMapper",
+      "Order",
+      "OrderActionBean",
+      "OrderMapper",
+      "OrderService",
+      "Sequence",
+      "SequenceMapper"
+    ],
+    "tables": [
+      "inventory",
+      "lineitem",
+      "orders",
+      "orderstatus",
+      "sequence"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "MathService": {
+    "classes": [
+      "Calculator",
+      "FibServlet",
+      "FibonacciIterative",
+      "MathServlet",
+      "Fibonacci"
+    ],
+    "tables": []
+  },
+  "UtilsService": {
+    "classes": [
+      "PersistenceLayer",
+      "StringUtils",
+      "ServletUtils",
+      "CheckUtils",
+      "ParameterObject",
+      "LibraryUtils",
+      "AckServlet",
+      "SqlData"
+    ],
+    "tables": [
+      "library.book",
+      "library.borrower",
+      "library.loan",
+      "auth.user"
+    ]
+  },
+  "CatalogService": {
+    "classes": [
+      "LibraryBookListAvailableServlet",
+      "LibraryRegisterBookServlet",
+      "LibraryBookListSearchServlet",
+      "Book"
+    ],
+    "tables": [
+      "library.book",
+      "library.loan"
+    ]
+  },
+  "AuthenticationService": {
+    "classes": [
+      "RegistrationResult",
+      "RegisterServlet",
+      "LoginServlet",
+      "PasswordResult",
+      "RegistrationUtils",
+      "LoginUtils"
+    ],
+    "tables": []
+  },
+  "LendingService": {
+    "classes": [
+      "Borrower",
+      "LibraryBorrowerListSearchServlet",
+      "LibraryRegisterBorrowerServlet",
+      "LibraryLendServlet",
+      "Loan"
+    ],
+    "tables": [
+      "library.borrower",
+      "library.loan"
+    ]
+  },
+  "UnassignedService": {
+    "classes": [
+      "WebAppListener"
+    ],
+    "tables": []
+  }
+}

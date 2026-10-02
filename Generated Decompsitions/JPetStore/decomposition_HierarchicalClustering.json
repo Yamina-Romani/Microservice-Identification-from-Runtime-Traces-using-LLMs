@@ -1,0 +1,50 @@
+{
+  "HierService_1": {
+    "classes": [
+      "Account",
+      "AccountActionBean",
+      "Cart",
+      "CartActionBean",
+      "CartItem",
+      "Item",
+      "ItemMapper",
+      "LineItem",
+      "LineItemMapper",
+      "Order",
+      "OrderActionBean",
+      "OrderMapper",
+      "OrderService",
+      "Product",
+      "Sequence",
+      "SequenceMapper"
+    ],
+    "tables": [
+      "account",
+      "inventory",
+      "lineitem",
+      "orders",
+      "orderstatus",
+      "sequence"
+    ]
+  },
+  "HierService_2": {
+    "classes": [
+      "AccountMapper",
+      "AccountService"
+    ],
+    "tables": []
+  },
+  "HierService_3": {
+    "classes": [
+      "CatalogActionBean",
+      "CatalogService",
+      "Category",
+      "CategoryMapper",
+      "ProductMapper"
+    ],
+    "tables": [
+      "category",
+      "product"
+    ]
+  }
+}
